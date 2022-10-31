@@ -1,8 +1,8 @@
 version: "3.9"  # optional since v1.27.0
 services:
-  web_api:
-    image: web_api
-    container_name: web_api_application
+  carrental:
+    image: carrental_webapi
+    container_name: carrental
     ports:
       - "5000:80"
   sql:
